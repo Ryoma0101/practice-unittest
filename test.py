@@ -4,7 +4,7 @@ from main import *
 
 class TestHello(unittest.TestCase):
     def test_main(self):
-        self.assertEqual(hello(), "Hello, World!")
+        self.assertEqual(hello(), "Hello, World!追加")
 
 
 class TestNumpy(unittest.TestCase):
